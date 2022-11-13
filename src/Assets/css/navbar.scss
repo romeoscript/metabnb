@@ -1,0 +1,34 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  .nav__links {
+    display: flex;
+    a{
+      color: black;
+     }
+    li {
+      padding: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #434343;
+    }
+  }
+  .navbar__connet-wallet {
+    border: 1px solid green;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    
+  }
+}

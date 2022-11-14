@@ -1,13 +1,20 @@
 import React from 'react'
 import '../Assets/css/footer.scss'
 import footerimage from '../Assets/images/Group.svg'
+import { GrFacebookOption } from 'react-icons/gr'
+import { AiOutlineTwitter,AiOutlineInstagram } from 'react-icons/ai'
+
 
 const Footer = () => {
   return (
     <footer>
-        <aside>
+        <aside className='icons'>
             <div className="footer__logo">
                 <img src={footerimage} alt="" />
+            </div>
+            <div className="footer__icons">
+                <p><GrFacebookOption className='fbicon'/> <AiOutlineTwitter className='fbicon'/> <AiOutlineInstagram className='fbicon'/></p>
+                <p>&#169;2022 Metabnb</p>
             </div>
         </aside>
         <aside>

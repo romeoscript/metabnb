@@ -1,19 +1,36 @@
-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2%;
-    justify-content: space-around;
-   
-    background: #1D1D1E;
-    padding: 1rem;
-    min-height: 40vh;
-    aside{
-        color: white;
-        img{
-            width: 60%;
-        }
-        li{
-            padding: 0.5rem;
-        }
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2%;
+  justify-content: space-around;
+
+  background: #1d1d1e;
+  padding: 1rem;
+  min-height: 40vh;
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .icons div:nth-child(2){
+  
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .fbicon{
+        margin: 0.5rem;
+        font-size: 20px;
     }
+  }
+  aside {
+    color: white;
+    img {
+      width: 60%;
+    }
+    li {
+      padding: 0.5rem;
+    }
+  }
 }

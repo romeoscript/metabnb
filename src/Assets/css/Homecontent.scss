@@ -10,12 +10,22 @@
     }
 }
 .home__content-grid{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 2%;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    @media (max-width:908px) {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2%;
+        margin-bottom: 4rem;
+        
+    }
     aside{
         background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
         border: 1px solid #D7D7D7;

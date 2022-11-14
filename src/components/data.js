@@ -20,47 +20,56 @@ import frame16 from '../Assets/images/Frame 151 (15).png'
  const data =[
     {
         image:frame,
+        id:1,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame1,
+        id:2,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame2,
+        id:3,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame3,
+        id:4,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame4,
+        id:5,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame5,
+        id:6,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame6,
         text:'Desert king',
+        id:7,
         ptext:'1MBT per night'
     },
    
     {
         image:frame7,
         text:'Desert king',
+        id:8,
         ptext:'1MBT per night'
     },
     {
         image:frame9,
+        id:9,
         text:'Desert king',
         ptext:'1MBT per night'
     },
@@ -71,31 +80,37 @@ import frame16 from '../Assets/images/Frame 151 (15).png'
     },
     {
         image:frame11,
+        id:10,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame12,
+        id:11,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame13,
+        id:12,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame14,
+        id:13,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame15,
+        id:14,
         text:'Desert king',
         ptext:'1MBT per night'
     },
     {
         image:frame16,
+        id:15,
         text:'Desert king',
         ptext:'1MBT per night'
     },

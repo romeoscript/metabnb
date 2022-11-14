@@ -12,7 +12,7 @@ const HomeContent = () => {
       <div className="home__content-grid">
         {datas.slice(0,8).map(data =>{
             return(
-                <aside>
+                <aside key={data.id}>
                 <div className="image_cont">
                   <img src={data.image} alt="" />
                 </div>

@@ -3,7 +3,7 @@ import '../Assets/css/navbar.scss'
 import logo from '../Assets/images/Group.png'
 import { Link } from 'react-router-dom'
 
-const NavBar = () => {
+const NavBar = ({onclick}) => {
   return (
     <div className='navbar__container'>
       <div className="navbar__logo">
@@ -15,7 +15,7 @@ const NavBar = () => {
         <li>NFTs</li>
         <li>Community</li>
       </ul>
-      <div className="navbar__connet-wallet">
+      <div className="navbar__connet-wallet" onClick={onclick}>
       Connect wallet
       </div>
     </div>

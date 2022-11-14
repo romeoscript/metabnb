@@ -1,0 +1,19 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+    justify-content: space-around;
+   
+    background: #1D1D1E;
+    padding: 1rem;
+    min-height: 40vh;
+    aside{
+        color: white;
+        img{
+            width: 60%;
+        }
+        li{
+            padding: 0.5rem;
+        }
+    }
+}

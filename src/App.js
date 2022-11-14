@@ -14,8 +14,9 @@ function App() {
       <NavBar  onclick={toggleModal} modal={modal}/>
       <Routes>
         <Route path="/" element={<Home ontlick={toggleModal} modal={modal}/>} />
-        <Route path="place" element={<Place />} />
+        <Route path="place" element={<Place ontlick={toggleModal} modal={modal}/>} />
       </Routes>
+      
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import FooterHero from "../components/FooterHero";
 import Hero from "../components/Hero";
 import HomeContent from "../components/HomeContent";
+import Marquee from "../components/Marquee";
 import Wallet from "../components/wallet";
 
 const Home = (props) => {
@@ -10,6 +11,7 @@ const Home = (props) => {
   return (
     <div>
       <Hero />
+      <Marquee/>
       <HomeContent />
       {props.modal &&<Wallet tap={props.ontlick} modal={props.modal}/>}
       <FooterHero />

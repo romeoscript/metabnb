@@ -1,9 +1,16 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import PlaceContent from '../components/PlaceContent'
+import Shuffle from '../components/Shuffle'
+import Wallet from '../components/wallet'
 
-const Place = () => {
+const Place = (props) => {
   return (
     <div>
-      place to stay
+      <Shuffle />
+      <PlaceContent />
+      {props.modal &&<Wallet tap={props.ontlick} modal={props.modal}/>}
+     <Footer />
     </div>
   )
 }

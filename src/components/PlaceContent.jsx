@@ -6,13 +6,15 @@ import datas from './data'
 
 
 
-const HomeContent = () => {
+const PlaceContent = (props) => {
+    console.log(props.ontlick)
   return (
     <div className="home__content">
       <h2>Inspiration for your next adventure</h2>
       {/* image items */}
+     
       <div className="home__content-grid">
-        {datas.slice(0,8).map(data =>{
+        {datas.map(data =>{
             return(
                 <aside key={data.id}>
                 <div className="image_cont">
@@ -45,4 +47,4 @@ const HomeContent = () => {
   );
 };
 
-export default HomeContent;
+export default PlaceContent;

@@ -1,0 +1,12 @@
+.marque{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    img{
+        width: 80%;
+    }
+}

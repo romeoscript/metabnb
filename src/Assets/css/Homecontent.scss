@@ -1,13 +1,16 @@
 .home__content{
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem;
 }
 .home__content-grid{
-    display: grid;
-    grid-template-columns: 292px 292px 292px 292px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 2%;
     margin-bottom: 4rem;
     aside{
@@ -15,6 +18,8 @@
         border: 1px solid #D7D7D7;
         border-radius: 15px;
         padding: 1rem 0;
+        width: 292px;
+        margin: 1rem 0;
         .span__icons{
             padding: 1rem;
             .aicons{

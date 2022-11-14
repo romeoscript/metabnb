@@ -7,6 +7,9 @@ footer {
   background: #1d1d1e;
   padding: 1rem;
   min-height: 40vh;
+  @media (max-width:768px) {
+    grid-template-columns: 1fr 1fr;
+  }
   .icons{
     display: flex;
     justify-content: space-between;

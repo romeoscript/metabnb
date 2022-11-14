@@ -10,7 +10,6 @@ const PlaceContent = (props) => {
     console.log(props.ontlick)
   return (
     <div className="home__content">
-      <h2>Inspiration for your next adventure</h2>
       {/* image items */}
      
       <div className="home__content-grid">

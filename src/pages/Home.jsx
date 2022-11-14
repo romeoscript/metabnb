@@ -10,7 +10,9 @@ const Home = (props) => {
 
   return (
     <div>
-      <Hero />
+      <div className="wrapper">
+      <Hero  />
+      </div>
       <Marquee/>
       <HomeContent />
       {props.modal &&<Wallet tap={props.ontlick} modal={props.modal}/>}

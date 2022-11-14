@@ -8,11 +8,21 @@
   top: 0;
   background: #fff;
  
+  .navbar__logo {
+    @media (max-width: 550px) {
+      width: 45%;
+    }
+  }
+  img {
+    @media (max-width: 550px) {
+      width: 60%;
+    }
+  }
   .nav__links {
     display: flex;
-    a{
+    a {
       color: black;
-     }
+    }
     li {
       padding: 1rem;
       font-style: normal;
@@ -20,6 +30,9 @@
       font-size: 20px;
       line-height: 25px;
       color: #434343;
+    }
+    @media (max-width: 768px) {
+      display: none;
     }
   }
   .navbar__connet-wallet {
@@ -35,6 +48,68 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    
+  }
+}
+.menu {
+  font-size: 30px;
+  margin-left: 1rem;
+  display: none;
+  @media (max-width:768px) {
+    display: block;
+  }
+}
+.responsive__nav {
+  text-align: center;
+  flex-direction: column;
+  min-height: 10rem;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  position: absolute;
+  right: 2%;
+  top: 60px;
+  padding: 1rem;
+  -webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	     animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+@-webkit-keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+
+ 
+  a {
+    color: white;
+  }
+  li {
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
   }
 }

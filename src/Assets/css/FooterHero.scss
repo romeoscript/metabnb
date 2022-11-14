@@ -1,5 +1,5 @@
 .footer__hero {
-  height: 100vh;
+  min-height: 70vh;
   display: flex;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
@@ -8,7 +8,10 @@
   padding: 1rem 2rem;
   gap: 2%;
   top: 0;
-
+  @media (max-width:550px) {
+    min-height: 70vh;
+   display: block;
+   }
   div:first-child,
   div:nth-child(2) {
     flex-basis: 49%;
@@ -24,6 +27,9 @@
     color: #fff;
     flex: none;
     order: 0;
+    @media (max-width:550px) {
+      font-size: 26px;
+     }
     
   }
   p {

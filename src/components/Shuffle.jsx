@@ -1,5 +1,6 @@
 import React from 'react'
 import './shuffle.scss'
+import settilngs from '../Assets/images/setting-5.png'
 
 const Shuffle = () => {
   return (
@@ -12,7 +13,7 @@ const Shuffle = () => {
       <p>Carbins</p>
       <p>Off-grid</p>
       <p>Farm</p>
-      <p>Resturant</p>
+      <p className='flex-p'><span>Location</span><img src={settilngs} alt="" /></p>
     </div>
   )
 }
